@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&family=Merriweather:wght@300;400;700&display=swap');
+
+:root {
+  --teal: #0d9488;
+  --teal-dark: #0f766e;
+  --teal-deeper: #134e4a;
+  --teal-pale: #f0fdfa;
+  --teal-light: #5eead4;
+  --bg: #ffffff;
+  --bg-alt: #f8fffe;
+  --text: #0f2830;
+  --text-muted: #4a7a80;
+  --border: #ccfbf1;
+  --border-strong: #99f6e4;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Merriweather', serif; background: var(--bg); color: var(--text); line-height: 1.75; font-size: 1rem; font-weight: 300; }
+a { color: var(--teal-dark); text-decoration: none; }
+a:hover { color: var(--teal); text-decoration: underline; }
+h1, h2, h3 { font-family: 'Raleway', sans-serif; font-weight: 700; line-height: 1.2; }
+.container { max-width: 1100px; margin: 0 auto; padding: 0 1.5rem; }
